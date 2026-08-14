@@ -1,0 +1,20 @@
+﻿name: pinocchio
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - numpy
+  - scipy
+  - pinocchio
+  - plotly
+  - pip
+  - pip:
+      - mujoco==3.11.0
+      - glfw==2.10.2
+      - PyOpenGL==3.1.10
+      - screeninfo
+      - mediapy
+      - opencv-python
+      - matplotlib
+      - pillow
